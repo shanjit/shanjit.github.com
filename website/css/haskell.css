@@ -1,0 +1,37 @@
+<style type="text/css">/*<![CDATA[*/
+.source-haskell {line-height: normal;}
+.source-haskell li {line-height: normal;}
+/**
+ * GeSHi Dynamically Generated Stylesheet
+ * --------------------------------------
+ * Dynamically generated stylesheet for haskell
+ * CSS class: source-haskell, CSS id: 
+ * GeSHi (C) 2004 - 2007 Nigel McNie, 2007 - 2008 Benny Baumann
+ * (http://qbnz.com/highlighter/ and http://geshi.org/)
+ * --------------------------------------
+ */
+.source-haskell .de1, .source-haskell .de2 {font-family: 'Courier New', Courier, monospace; font-weight: normal; font-style: normal;}
+.source-haskell  {font-family: monospace;}
+.source-haskell .head {}
+.source-haskell .foot {}
+.source-haskell .imp {font-weight: bold; color: red;}
+.source-haskell li, .source-haskell li.li1 {font-weight: normal;}
+.source-haskell li.li2 {font-weight: bold;}
+.source-haskell .kw1 {color: #06c; font-weight: bold;}
+.source-haskell .kw2 {color: #06c; font-weight: bold;}
+.source-haskell .kw3 {font-weight: bold;}
+.source-haskell .kw4 {color: #cccc00; font-weight: bold;}
+.source-haskell .kw5 {color: maroon;}
+.source-haskell .co1 {color: #5d478b; font-style: italic;}
+.source-haskell .co2 {color: #339933; font-weight: bold;}
+.source-haskell .coMULTI {color: #5d478b; font-style: italic;}
+.source-haskell .es0 {background-color: #3cb371; font-weight: bold;}
+.source-haskell .br0 {color: green;}
+.source-haskell .sy0 {color: #339933; font-weight: bold;}
+.source-haskell .st0 {background-color: #3cb371;}
+.source-haskell .nu0 {color: red;}
+.source-haskell .me1 {color: #060;}
+.source-haskell .ln-xtra, .source-haskell li.ln-xtra, .source-haskell div.ln-xtra {color: #cc0; background-color: #ffc;}
+
+/*]]>*/
+</style>

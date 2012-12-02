@@ -1,0 +1,207 @@
+/*   
+Theme Name: Tabea
+Theme URI: www.tabea.com
+Description: Custom theme for photographer and multi-talent Cora Tabea Hillebrand
+Author: Lundgren+Lindqvist
+Author URI: www.lundgrenlindqvist.com
+Version: 1.0
+.
+This theme, its design and all files included are protected under copyright laws. It is not a free theme.
+.
+*/
+
+/* Imports */
+
+/* Reset Browser Default */ 
+/*\*/@import url(css/reset.css); /**/
+
+
+
+/* Basic WordPress Blog Styles */
+
+
+/* Images */
+
+.entry-content img {margin: 0 0 1.5em 0;}
+.alignleft, img.alignleft {display: inline;float: left;margin-right: 1.5em;}
+.alignright,img.alignright {display: inline;float: right;margin-left: 1.5em;}
+.aligncenter,img.aligncenter {clear: both;display: block;margin-left: auto;margin-right: auto;}
+.wp-caption {text-align: center;margin-bottom: 1.5em;}
+.wp-caption img {border: 0 none;margin: 0;padding: 0;}
+.wp-caption p.wp-caption-text {margin: 0;}
+.wp-smiley { max-height: 1em;margin:0 !important;}
+.gallery dl {margin: 0;}
+.gallery-caption {margin:-1.5em 0 0 0;}
+
+
+/* Pullquotes */
+
+blockquote.left {float: left;margin-left: 0;margin-right: 20px;text-align: right;width: 33%;}
+blockquote.right {float: right;margin-left: 20px;margin-right: 0;text-align: left;width: 33%;}
+
+
+/* Structure */
+
+html, body {width:100%;height:100%;}
+
+#wrapper {margin:0;width:100%;height:100%;}
+
+#header {position: absolute;top:47px;left:50%;margin-left:-480px;width:960px;z-index:10000;}
+
+#container {position: absolute;top:0;margin-left:-470px;margin-top:0;height:100%;left:50%;width:940px;z-index:1;overflow:hidden;}
+
+#footer {position: absolute;bottom:50px;left:50%;margin-left:-480px;width:960px;z-index:10000;}
+
+.col {float:left;margin:10px;}
+
+.w940 {width:940px;}
+
+.w300 {width:300px;}
+
+.w220 {width:220px;}
+
+.w140 {width:140px;}
+
+.ml180 {margin-left:180px;}
+
+.ml20 {margin-left:20px;}
+
+.posts {position:absolute;margin:200px 0 0;}
+
+.post {float:left;}
+
+.single {
+	position:absolute;
+	z-index:1;
+	cursor:none;
+}
+
+.single img {
+	cursor:none;
+}
+
+.single iframe {
+	position: absolute;
+	z-index: 2000000;
+	cursor:none;
+}
+
+#cover {
+	position:absolute;
+	z-index:1000000;
+	width:100%;
+	height:100%;
+	cursor:none;
+}
+
+#nextArrow {
+	display:none;
+	width:49px;
+	height:60px;
+	background:url(img/nextArrow.png) 0 0 no-repeat;
+	position:absolute;
+	z-index:10000;
+	cursor:none;
+}
+
+#prevArrow {
+	display:none;
+	width:49px;
+	height:60px;
+	background:url(img/prevArrow.png) 0 0 no-repeat;
+	position:absolute;
+	z-index:10000;
+	cursor:none;
+}
+
+.loadingImagesHolder {
+	position:absolute;
+	z-index:0;
+	margin-left:-100000px;
+}
+
+.loadingImagesHolder img {
+	width:25px;
+	height:auto;
+	border:2px solid blue;
+}
+
+.loadingImagesHolder iframe {
+	border:2px solid red;
+	display: none;
+}
+
+.loadingImagesHolder img.active, .loadingImagesHolder iframe.active {
+	border:2px solid #0F0;
+}
+
+.navigation {
+	position:absolute;
+	margin-left:-100000px;
+}
+
+.no-wrap {display:inline-block;word-break:keep-all;line-break:strict;}
+
+/* Color & Typography */
+
+body {background:#f3f4f4;font-size:12px;line-height:16px;color:#777;font-family:"Apercu Mono Regular", 'Andale Mono', monospace;font-size-adjust:0.5;font-weight:normal;font-style:normal;}
+
+body.loading {background:#f3f4f4 url(img/loader.gif) center center no-repeat;}
+
+a {text-decoration:none;}
+
+ul#mainmenu {margin:2px 0 0;}
+
+ul#mainmenu li {list-style-position:inside;list-style-image:url(img/mainmenu-list-style-image.png);}
+
+ul#mainmenu li.current_page_item {list-style-image:url(img/mainmenu-list-style-image-active.png);}
+
+ul#mainmenu li a {color:#000;margin: 0 0 0 -4px;}
+
+ul#mainmenu li.current_page_item a {color:#0000FF;}
+
+h1, .dot {color:#000;font-size:36px;line-height: 48px;letter-spacing:-1px;font-family:"Apercu Bold", Calibri, sans-serif;font-size-adjust:0.508;font-weight:bold;font-style:normal;display: inline;}
+
+h1 a:link, h1 a:active {color:#000;background:url(img/dotted.gif) 0 0 repeat;}
+
+h1 a:visited {color:#000;/*color:#939393;*/}
+
+.dot a:link, .dot a:active, .dot a:visited, .dot a:hover {background: none;}
+
+.home-post-list-item:hover h1 {background:#0000ff 0 0 repeat;}
+
+.home-post-list-item:hover h1 a, .home-post-list-item:hover h1 .videos, .home-post-list-item:hover h1 .pictures, .home-post-list-item:hover h1 .dot {color:#0000ff;background:#0000ff 0 0 repeat;}
+
+.home-post-list-item:hover .number {background:#0000ff;}
+
+.number {width:40px;background:url(img/no.png) 0 13px no-repeat;margin:0 -2px 0 3px;text-indent:-100000px;display:-moz-inline-stack;display:inline-block;zoom:1;*display:inline;}
+
+.digits {font-size: 22px;line-height: 43px;vertical-align: top;letter-spacing: 0px;}
+
+.year {font-size:24px;display: inline;margin: 0;font-family:"Apercu Mono Regular", 'Andale Mono', monospace;font-weight:normal;}
+
+.pictures {color:#0000FF;}
+
+.videos {color:#606060;}
+
+ul#codex li {line-height:12px;color:#777;margin: 2px 0 4px;padding: 0 0 0 5px;}
+
+ul#codex li.pictures {border-left:12px solid #0000FF;}
+
+ul#codex li.videos {border-left:12px solid #606060;}
+
+#footer a {color:#777;}
+
+h2 {color:#999;font-size:36px;line-height:36px;letter-spacing:-1px;font-family:"Apercu Bold", Calibri, sans-serif;font-size-adjust:0.508;font-weight:bold;font-style:normal;float:left;}
+
+#logo a {color:#999;}
+
+.tm {font-size: 24px;line-height: 24px;margin: 2px 0 0;float:left;}
+
+.home-post-list-item {}
+
+.page p {color:#000;font-size:36px;line-height: 44px;letter-spacing:-1px;font-family:"Apercu Bold", Calibri, sans-serif;font-size-adjust:0.508;font-weight:bold;font-style:normal;margin:0 0 44px;}
+
+.page p strong {font-family:"Apercu Mono Regular", 'Andale Mono', monospace;font-size-adjust:0.5;font-weight:normal;font-style:normal;color:#9E9E9E;letter-spacing:-2px;}
+
+.page p em {font-size:24px;color:#0000FF;font-family:"Apercu Mono Regular", 'Andale Mono', monospace;font-size-adjust:0.5;font-weight:normal;font-style:normal;}
