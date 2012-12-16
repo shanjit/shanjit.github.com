@@ -19,8 +19,13 @@
 
     <style type="text/css">
 	  body {
-        padding-top: 10px;
+       padding-top: 10px;
         padding-bottom: 0px;
+        background: #ddd url('../bg.png') no-repeat fixed center; 
+		}
+		.boxed {
+  border: 1px solid #ddd	;
+        padding:15px;
 		}
 	
     </style>
@@ -46,25 +51,67 @@
   </head>
 
   <body>
-	  <!--<body style="background-color:light-grey;">-->
+  
+    <!--<a  style="font-family: 'Merienda One', ;"  href="http://www.shanjitsingh.in"> Shanjit Singh Jajmann</a>-->
+     
 <div class="container">
-		
-  <h1>
-	Shanjit Singh Jajmann
-  </h1>
-  <h4>
+<div class="row-fluid breadcrumb">
+  <h1 class="breadcrumb span5">
+	Shanjit Singh Jajmann<br>
+		to-be-engineer
+	</h1>
+	
+	
+  <div class="span7">
+	  
+  
+  <!--<h4>
 	Electronics and Communication Engineering Undergraduate 
   </h4>
   <h4>
 	Netaji Subhas Institute of Technology
   </h4>
+  
   <h4>
 	University of Delhi, India
-  </h4>
+  </h4>-->
+ <!-- 
   
-  <ul class="nav nav-tabs">
-     <div class="span6 offset1">
+      <div class="navbar">
+    <div class="navbar-inner">
+    <ul class="nav offset7">
+    
+    <li>
+                <a style="font-size:22px" style="font-family: 'Merienda One', cursive;" href="http://www.shanjitsingh.in/resume/index.html">Resume</a>
+            </li>
+            <li>
+                <a style="font-size:22px" style="font-family: 'Merienda One', cursive;" href="http://shanjitsingh.tumblr.com/">Blog</a>
+            </li>
+            <li class="dropdown" id="menu1">
+                <a style="font-size:22px" style="font-family: 'Merienda One', cursive;" class="dropdown-toggle" data-toggle="dropdown" href="http://www.shanjitsingh.in/research/index.html">
+                Projects
+                <b class="caret"></b>
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a style="font-size:22px" style="font-family: 'Merienda One', cursive;" href="http://www.shanjitsingh.in/research/index.html">Projects</a></li>
+                    <!--<li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                    <li class="divider"></li>
+                    <li><a style="font-size:22px" style="font-family: 'Merienda One', cursive;" href="http://shanjit.github.com/research/index.html#pub">Publications</a></li>
+                </ul>
+            </li>
+            <li><a style="font-size:22px" style="font-family: 'Merienda One', cursive;" href="http://www.shanjitsingh.in">About me</a></li>
+            <hr \>
+    
+    
+    </ul>
     </div>
+    </div>
+  
+  --></div>
+  <div class="span7">
+  <ul class="nav nav-tabs offset2 span9 breadcrumb">
+	 
 			<li>
                 <a style="font-size:20px" style="font-family: 'Merienda One', cursive;" href="http://www.shanjitsingh.in/resume/index.html">Resume</a>
             </li>
@@ -80,26 +127,25 @@
                     <li><a style="font-size:20px" style="font-family: 'Merienda One', cursive;" href="http://www.shanjitsingh.in/research/index.html">Projects</a></li>
                     <!--<li><a href="#">Another action</a></li>
                     <li><a href="#">Something else here</a></li>-->
-                    <li class="divider"></li>
+                    
                     <li><a style="font-size:20px" style="font-family: 'Merienda One', cursive;" href="http://shanjit.github.com/research/index.html#pub">Publications</a></li>
                 </ul>
             </li>
             <li><a style="font-size:20px" style="font-family: 'Merienda One', cursive;" href="http://www.shanjitsingh.in">About me</a></li>
+            
         </ul>
-        
-<hr \>
+</div>		
+</div>
 </div>
   
   
-  <div class="span4" id="projects">
+  <div class="span2 breadcrumb" id="projects">
     <h2>
       Projects
     </h2>
   </div>
-  
-  	 
-  
-<div class="fluid">
+ 
+<div class="container breadcrumb fluid">
   <div class="span12">
         <h3><a>B.E. Project: Hardware Software Co-design (Sept. 2012 - 
         Current) </a></h3>
@@ -123,7 +169,7 @@
         <!--<p><a class="btn" href="#">Read more</a></p>-->
       </div>
     
-	<div class="span1"></div>
+	
 		
       <div class="span8">
         <p></p>
@@ -135,10 +181,12 @@
   </div>
   </div>
 
+</div>
 
 <div class="span12"><hr></div>
 
-<div class="fluid">
+
+<div class="container breadcrumb fluid">
   <div class="span12">
         <h3><a>"SuSen" - Surface Sensors with Intelligence (July 2012 - Current)</a></h3>
         <h4><a>TI Analog Design Contest 2012</a></h4>
@@ -159,7 +207,7 @@
         <!--<p><a class="btn" href="#">Read more</a></p>-->
       </div>
     
-	<div class="span1"></div>
+	
 		
       <div class="span8">
         <p></p>
@@ -174,7 +222,7 @@
 </div>
 <div class="span12"><hr></div>
  
- <div class="fluid">
+ <div class="container breadcrumb fluid">
   <div class="span12">
         <h3><a>Multilingual Cloud based Health Monitoring Manager</a></h3>
         <h4><a>TI Analog Design Contest 2011</a></h4>
@@ -186,7 +234,7 @@
         </a>
       </div>-->
       
-      <div class="span8">      
+      <div class="span7">      
         <p>
 			<h4>The Idea</h4>
           Create an interface for easier integration of physical readings from Daily Life devices onto the cloud. We initially thought of using Pachube using the Pachube API, later thought of moving to Google Health (which unfortunately was shutdown midway during the project). 
@@ -210,7 +258,7 @@ The project was implemented for English and French.
 	<div class="span4">  <img src="projects/ti-adc2011/scale.jpg" title="Hacking the Scale"></div>
 	
 	
-	<div class="span8">      
+	<div class="span7">      
         <p>
 			<h4>Implementation</h4>
           The contest was in 2 phases,<br>
@@ -245,7 +293,7 @@ Phase 1 involved coming up with an idea of a project and showcasing the impact o
 			<div class="span12">
 			</div>
 			
-	<div class="span8">      
+	<div class="span7">      
         <p>
 			<h4>Things learnt along the way</h4>
           
@@ -316,9 +364,11 @@ Framework was challenging and fun. Software skills put to work.
     
   </div>
 </div>
-<div class="span12"><hr></div>
+
+<hr>
+
  
- <div class="fluid">
+ <div class="container breadcrumb fluid">
   <div class="span12">
         <h3><a href="#">Stellaris Guru</a></h3>
   </div>
@@ -328,7 +378,7 @@ Framework was challenging and fun. Software skills put to work.
         Guru">
       </div>
       
-      <div class="span8">      
+      <div class="span7">      
         <p>
 			
 			<div style="font-size: 15px;">
@@ -369,7 +419,7 @@ Framework was challenging and fun. Software skills put to work.
         <p><a class="btn" href="http://www.armcontroller.in">Project Website</a></p>
       </div>
     
-	<div class="span1"></div>
+
 		
       <div class="span8">
         <p></p>
@@ -385,10 +435,10 @@ Framework was challenging and fun. Software skills put to work.
 
 
 
- <div class="span12"><hr></div>
+ <hr>
  
  
-  <div class="fluid">
+  <div class="container breadcrumb fluid">
   <div class="span12">
         <h3><a href="#">Stellaris Shuru</a></h3>
         <h4><a href="#">Prequel to the Stellaris Guru</a></h4>
@@ -432,13 +482,14 @@ marks left out. Putting it in Ferric Chloride. <br>
       
       
       </div>
-    <div class="span4">
+    <div class="span3">
     <img src="projects/stellaris-shuru/4.jpg"><br><br>
       <img src="projects/stellaris-shuru/5.jpg"><br><br>
       <img src="projects/stellaris-shuru/6.jpg"><br><br></div>
       
     <div class="span4">
     <img src="projects/stellaris-shuru/7.jpg"><br><br>
+      <img src="projects/stellaris-shuru/8.jpg"><br><br>
       <img src="projects/stellaris-shuru/8.jpg"><br><br></div>
     
     
@@ -446,7 +497,6 @@ marks left out. Putting it in Ferric Chloride. <br>
       <div class="span8">
         <p>
 </p>
-        <!--<p><a class="btn" href="#">Read more</a></p>-->
       </div>
  
  
@@ -460,9 +510,11 @@ marks left out. Putting it in Ferric Chloride. <br>
           | <i class="icon-calendar"></i> Mar 19th, 2012
         </p>
       </div>
+      </div>
       
-      <div class="span12"><hr></div>
-      <div class="fluid">
+      <hr>
+      
+      <div class="container breadcrumb fluid">
   <div class="span12">
         <h3><a href="#">ARM Cortex-M3 Toolchain Setup for TI uCs</a></h3>
   </div>
@@ -528,10 +580,10 @@ board).<br>
         </p>
       </div>
       
+      </div>
+       <hr>
       
-       <div class="span12"><hr></div>
-      
-      <div class="fluid">
+      <div class="container breadcrumb fluid">
   <div class="span12">
         <h3><a href="">Using OpenOCD with TI and ST Microcontrollers</a></h3>
   </div>
@@ -605,7 +657,7 @@ environment on Ubuntu looks like, <br>
       
       </div>
     
-	<div class="span8">
+	<div class="span7">
 	
 	
 <b>Eclipse needs to be started using Super User privileges for 
@@ -653,22 +705,17 @@ http://openocd.sourceforge.net/doc/html/GDB-and-OpenOCD.html
           | <i class="icon-calendar"></i> August 29th, 2011
         </p>
       </div>
-      
-
-
-
-
-<div class="span12"><hr>
-</div>
+      </div>
+<hr>
  
- <div class="fluid">
+<div class="container breadcrumb fluid">
   <div class="span12">
         <h3><a>Android App: AnalytXLS</a></h3>
         <h4><a>A Spreadsheet Application</a></h4>
   </div>
   
 	  
-      <div class="span8">
+      <div class="span7">
         <p>Android is a software platform for smartphones and Internet tablets. It is a mobile operating system initially developed by Android Inc. . Android was bought by Google in 2005. Android is based upon a modified version of the Linux kernel. Google and other members of the Open Handset Alliance collaborated to develop and release Android to the world.
 
 The Android operating system software stack consists of Java applications running on a Java based object oriented application framework on top of Java core libraries running on a Dalvik virtual machine featuring JIT compilation. Libraries written in C include the surface manager, OpenCore[18] media framework, SQLite relational database management system, OpenGL ES 2.0 3D graphics API, WebKit layout engine, SGL graphics engine, SSL, and Bionic libc.
@@ -684,7 +731,7 @@ Working on similar grounds, AnalytXLS aims at providing functionality in mobile 
     <div class="span4"><img src="projects/analytxls/02.png"> <br>
       </div>
       
-      <div class="span8">
+      <div class="span7">
         <p>
 			<h3>Features</h3>
 			The project has been implemented with the help of <a 
@@ -705,7 +752,7 @@ All the functions which can be used in the context of cells and the data in them
  <img src="projects/analytxls/04.png">
       </div>
       
-      <div class="span8">
+      <div class="span7">
         <p>
 
 <h4>Utility Features</h4>
@@ -757,23 +804,21 @@ window.<br><br>
           | <i class="icon-calendar"></i> Mar 10th, 2010
         </p>
       </div>
+      </div>
+      
+      <hr>
       
       
-      <div class="span12" id="pub"><hr></div>
-      
-      
-      
-  <div class="span1">
-  </div>
-  <div class="span11">
-  <div>
+  <div class="span12">
+  <div class="span2 breadcrumb">
     <h2>
       Publications
     </h2>
   </div>
   </div>
   
-  <div class="fluid">
+  
+  <div class="container breadcrumb fluid">
 	  
 	<div class="span7">
 		<h4>Book</h4><dd>
@@ -790,15 +835,9 @@ kit and is also available for off-the-shelf purchasing.<br><br>
 Complete source code and makefiles for all experiments is available at 
 <a href="http://www.armcontroller.in">www.armcontroller.in</a><br><br>
 
-  
-        
-        
   </div>
   
   <div class="span4"><img src="projects/book.png"><br></div>
-  
-  
-  
   
   </div>
   	 
@@ -814,7 +853,7 @@ Complete source code and makefiles for all experiments is available at
   <ul class="breadcrumb">
     <div class="span6">
       <div align="left">
-         <font color="white"> © Shanjit Singh Jajmann 2012</font>
+         <font color="black"> © Shanjit Singh Jajmann 2012</font>
       </div>
     </div>
     <div class="span2">
