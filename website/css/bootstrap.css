@@ -3256,7 +3256,7 @@ input[type="submit"].btn.btn-mini {
   line-height: 14px;
 }
 .nav-tabs {
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid transparent;
 }
 .nav-tabs > li {
   margin-bottom: -1px;
@@ -3265,7 +3265,7 @@ input[type="submit"].btn.btn-mini {
   padding-top: 8px;
   padding-bottom: 8px;
   line-height: 20px;
-  border: 1px solid transparent;
+  border: 1px solid #C15D63;
   -webkit-border-radius: 4px 4px 0 0;
   -moz-border-radius: 4px 4px 0 0;
   border-radius: 4px 4px 0 0;
@@ -3275,10 +3275,10 @@ input[type="submit"].btn.btn-mini {
 }
 .nav-tabs > .active > a,
 .nav-tabs > .active > a:hover {
-  color: #999999;
+  color: #C15D63;
   background-color: #ffffff;
-  border: 1px solid #ddd;
-  border-bottom-color: transparent;
+  border: 1px solid #C15D63;
+  border-bottom-color: #C15D63;
   cursor: default;
 }
 .nav-pills > li > a {
@@ -3293,7 +3293,7 @@ input[type="submit"].btn.btn-mini {
 .nav-pills > .active > a,
 .nav-pills > .active > a:hover {
   color: #ffffff;
-  background-color: #777777;
+  background-color: #C15D63;
 }
 .nav-stacked > li {
   float: none;
@@ -3374,7 +3374,7 @@ input[type="submit"].btn.btn-mini {
 .nav-pills .open .dropdown-toggle,
 .nav > li.dropdown.open.active > a:hover {
   color: #ffffff;
-  background-color: #bbbbbb;
+  background-color: #C15D63;
   border-color: #bbbbbb;
 }
 .nav li.dropdown.open .caret,
@@ -3386,7 +3386,7 @@ input[type="submit"].btn.btn-mini {
   filter: alpha(opacity=100);
 }
 .tabs-stacked .open > a:hover {
-  border-color: #bbbbbb;
+  border-color: #C15D63;
 }
 .tabbable {
   *zoom: 1;
@@ -3429,12 +3429,12 @@ input[type="submit"].btn.btn-mini {
   border-radius: 0 0 4px 4px;
 }
 .tabs-below > .nav-tabs > li > a:hover {
-  border-bottom-color: transparent;
+  border-bottom-color: #C15D63;
   border-top-color: #ddd;
 }
 .tabs-below > .nav-tabs > .active > a,
 .tabs-below > .nav-tabs > .active > a:hover {
-  border-color: transparent #ddd #ddd #ddd;
+  border-color: #C15D63 #ddd #ddd #ddd;
 }
 .tabs-left > .nav-tabs > li,
 .tabs-right > .nav-tabs > li {
@@ -3449,7 +3449,7 @@ input[type="submit"].btn.btn-mini {
 .tabs-left > .nav-tabs {
   float: left;
   margin-right: 19px;
-  border-right: 1px solid #ddd;
+  border-right: 1px solid #C15D63;
 }
 .tabs-left > .nav-tabs > li > a {
   margin-right: -1px;
@@ -3978,10 +3978,10 @@ input[type="submit"].btn.btn-mini {
   background-color: #000000 \9;
 }
 .breadcrumb {
-  padding: 8px 15px;
+  padding: 1px 15px;
   margin: 0 0 20px;
   list-style: none;
-  background-color: #f5f5f5;
+  background-color: #f9f5c0;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px;
