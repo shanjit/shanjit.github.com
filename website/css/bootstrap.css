@@ -3271,7 +3271,9 @@ input[type="submit"].btn.btn-mini {
   border-radius: 4px 4px 0 0;
 }
 .nav-tabs > li > a:hover {
-  border-color: #eeeeee #eeeeee #dddddd;
+  color: #C15D63;
+  background-color: #ffffff;
+  border-color: #C15D63 #C15D63 #C15D63;
 }
 .nav-tabs > .active > a,
 .nav-tabs > .active > a:hover {
