@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7 ]> <html class="ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]> <html class="ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]> <html class="ie8" lang="en"> <![endif]-->
+
+<head>
+<meta charset='utf-8'>
+<!-- Uncomment to make IE8 render like IE7 -->
+<!-- <meta http-equiv="X-UA-Compatible" content="IE=7" /> -->
+<!-- Set the viewport width to device width for mobile -->
+<meta content='width=device-width, initial-scale=1.0' name='viewport'>
+<title>Shanjit Singh Jajmann</title>
+<link href="../../../application.css" media="screen" rel="stylesheet" type="text/css" />
+<script src="../../../application.js" type="text/javascript"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js" type="text/javascript"></script>
+<script src="../../../highlight.js" type="text/javascript"></script>
+
+<style type="text/css">
+	  body {
+        padding-top: 10px;
+        padding-bottom: 0px;
+        background: #ddd url('bg.png') no-repeat fixed center;
+        color:#C15D63;
+		
+		}
+		.boxed {
+  border: 1px solid #C15D63	;
+        padding:15px;
+}
+
+    </style>
+
+</head>
+<body>
+<section class='sidebar'>
+<h1 class='name'>
+Shanjit Singh Jajmann
+</h1>
+<nav>
+<div><a href="http://www.shanjitsingh.in/index.html" class="navlink inactive">About</a></div>
+<div><a href="http://blog.shanjitsingh.in" class="navlink inactive">Blog</a></div>
+<div><a href="http://www.shanjitsingh.in/research/index.html" class="navlink active">Projects</a></div>
+<div><a href="http://shanjit.github.com/research/index.html#pub" class="navlink inactive">Publications</a></div>
+<div><a href="http://www.shanjitsingh.in/resume/index.html" class="navlink inactive">Resume</a></div>
+</nav>
+<h2 class='find_me'>
+Contact:
+</h2>
+<div class='icons'>
+<a class='icon' href='https://github.com/shanjit'>
+<i class='icon-github-circled icon'></i>
+</a>
+<a class='icon' href='http://www.facebook.com/shanjitsingh'>
+<i class='icon-facebook-circled icon'></i>
+</a>
+<a class='icon' href='mailto:shanjitsingh@gmail.com'>
+<i class='icon-mail icon'></i>
+</a>
+</div>
+</section>
+<section class='content'>
+
+
+      
+      <div class="boxed" align="justify">
+  <div class="span12">
+        <h3><a href="#">ARM Cortex-M3 Toolchain Setup for TI uCs</a></h3>
+  </div>
+  
+	  <div class="span12" style="font-size: 16px;">      
+        <p>
+<h4>Introduction</h4>      
+What is a toolchain ?<br>
+The processor runs only what it understands. So as a developer its upto 
+you to make sure you give it only what it can run. But, what it can run 
+is totally different from what you can read. Thus, comes the concept of 
+higher level languages. Its best to make sure you use a single language 
+for development, and C is the most preferred. The toolchain converts 
+your code into something (hex files, 1's and 0's) which the processor 
+can understand.<br><br>
+
+That blackbox which converts the code from user readable format to the 
+hex format to be burnt onto the board, encompasses the 
+toolchain.<br><br>
+
+<b>Parts of a Toolchain,</b><br>
+There are various parts of the toolchain. They include,<br>
+Compiler<br>
+Assembler<br>
+Linker<br>
+Debugger<br>
+<br>
+<b>Types of toolchains, (quite obviously depends on the host and the 
+target)</b> <br>
+Now, the funny thing was when i started, i used to see weird things written everywhere like, arm-linux, arm-elf, arm-none-eabi,i386-linux, i386-elf these didn't make any sense in the beginning. What they signify is the the host and the target controller. 
+<br><br>
+So step 1, would be to just get all the parts of the toolchain together on your system, either windows or linux. (Have tried both and linux works like a charm). Get everything using either <br>
+1. Yogarto<br>
+2. GNUARM<br>
+3. CodeSourcery Lite (i prefer this)<br>
+<br>
+or integrate each of the compiler, assembler and linker from scratch. ( http://crosstool-ng.org/)
+<br>
+The next thing which you need is an IDE for your code. There are already pre-built IDE's with toolchains integrated,
+<br>
+There are a few IDE's out there which are free, but with limited functionality (either in terms of code-size or a time limit or insufficient support for all boards out there),<br>
+1. Keil MDK-ARM-Basic (Windows, under Wine in Linux)<br>
+2. IAR Embedded Workbench (Windows)<br>
+3. Atollic TrueSTUDIO (Windows)<br>
+<br>
+The best thing would be to integrate Eclipse (link) as an IDE, and 
+configure it for making the required hex file (finally burned onto the 
+board).<br>
+
+        </p>
+        <br>
+        <p><a class="btn" href="http://www.armcontroller.in/projects/stellaris-guru/setup-the-development-environment">Setting 
+        up the Toolchain</a></p>
+        <!--<p><a class="btn" href="#">Read more</a></p>-->
+      </div>
+      
+      
+	
+      <div class="span8">
+        <p></p>
+        <p>
+          <a href="http://www.shanjitsingh.in">Shanjit Singh Jajmann</a> 
+          | <i class="icon-calendar"></i> July 15th, 2011
+        </p>
+      </div>
+      
+      </div>
+  
+
+
+
+
+
+
+</section>
+</body>

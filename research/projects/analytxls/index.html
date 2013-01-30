@@ -1,128 +1,184 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>Shanjit Singh Jajmann</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Personal Webpage">
-    <meta name="author" content="Shanjit Singh Jajmann">
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7 ]> <html class="ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]> <html class="ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]> <html class="ie8" lang="en"> <![endif]-->
 
-    <!-- Le styles -->
-    <link href="../website/css/bootstrap.css" rel="stylesheet">
-    <style type="text/css">
-      body {
-        padding-top: 60px;
-        padding-bottom: 40px;
-      }
+<head>
+<meta charset='utf-8'>
+<!-- Uncomment to make IE8 render like IE7 -->
+<!-- <meta http-equiv="X-UA-Compatible" content="IE=7" /> -->
+<!-- Set the viewport width to device width for mobile -->
+<meta content='width=device-width, initial-scale=1.0' name='viewport'>
+<title>Shanjit Singh Jajmann</title>
+<link href="../../../application.css" media="screen" rel="stylesheet" type="text/css" />
+<script src="../../../application.js" type="text/javascript"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js" type="text/javascript"></script>
+<script src="../../../highlight.js" type="text/javascript"></script>
+
+<style type="text/css">
+	  body {
+        padding-top: 10px;
+        padding-bottom: 0px;
+        background: #ddd url('bg.png') no-repeat fixed center;
+        color:#C15D63;
+		
+		}
+		.boxed {
+  border: 1px solid #C15D63	;
+        padding:15px;
+}
+
     </style>
-    <!--<link href="website/css/bootstrap-responsive.css" rel="stylesheet">-->
-    <link href="../website/css/font-awesome.css" rel="stylesheet">
 
-    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
-    <!--[if lt IE 9]>
-      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+</head>
+<body>
+<section class='sidebar'>
+<h1 class='name'>
+Shanjit Singh Jajmann
+</h1>
+<nav>
+<div><a href="http://www.shanjitsingh.in/index.html" class="navlink inactive">About</a></div>
+<div><a href="http://blog.shanjitsingh.in" class="navlink inactive">Blog</a></div>
+<div><a href="http://www.shanjitsingh.in/research/index.html" class="navlink active">Projects</a></div>
+<div><a href="http://shanjit.github.com/research/index.html#pub" class="navlink inactive">Publications</a></div>
+<div><a href="http://www.shanjitsingh.in/resume/index.html" class="navlink inactive">Resume</a></div>
+</nav>
+<h2 class='find_me'>
+Contact:
+</h2>
+<div class='icons'>
+<a class='icon' href='https://github.com/shanjit'>
+<i class='icon-github-circled icon'></i>
+</a>
+<a class='icon' href='http://www.facebook.com/shanjitsingh'>
+<i class='icon-facebook-circled icon'></i>
+</a>
+<a class='icon' href='mailto:shanjitsingh@gmail.com'>
+<i class='icon-mail icon'></i>
+</a>
+</div>
+</section>
+<section class='content'>
 
-    <!-- Fav and touch icons -->
-    <link rel="shortcut icon" href="../website/ico/favicon.ico">
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../website/ico/apple-touch-icon-144-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../website/ico/apple-touch-icon-114-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../website/ico/apple-touch-icon-72-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" href="../website/ico/apple-touch-icon-57-precomposed.png">
-  </head>
 
-  <body>
-<div class="navbar navbar-fixed-top navbar-inverse">
-  <div class="navbar-inner">
-    <div class="container">
-      <!--<a class="brand" href="#">
-        
-      </a>-->
-      <div class="span1">
-      </div>
-      <ul class="nav">
-        <ul class="nav">
-          
-          <li class="Projects">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Projects <b class="caret"></b></a>
-              <ul class="dropdown-menu">
-                <li><a href="../projects/btp">B.E. Project: Hardware Software Co-design</a></li>
-                <li><a href="../projects/analytxls">Android App: AnalytXLS</a></li>
-                <li><a href="../projects/stellaris-guru">Stellaris Guru</a></li>
-                <li><a href="../projects/stellaris-shuru">Stellaris Shuru</a></li>
-                <!--<li class="divider"></li>-->
-                <li><a href="../projects/ti-adc2011">TI ADC 2011</a></li>
-              </ul>
-            </li>
-          
-          <li>
-            <a href="http://shanjitsingh.tumblr.com">
-              Blog
-            </a>
-          </li>
-        </ul>
-        <!--<li class="divider-vertical">
-        </li>-->
-        <li>
-        </li>
-        <li>
-          <a href="index.html">
-            Misc
-          </a>
-        </li>
-        
-        <li>
-          <a href="../resume.pdf">
-            Resume
-          </a>
-        </li>
-        
-        
-         <li>
-          <a href="../">
-            About Me
-          </a>
-        </li>
-        
-      </ul>
-      <div class="span1">
-      </div>
-      <div class="span2">
-      </div>
+
+
+
+
+
+
+ 
+<div class="boxed" id="analytxls" align="justify">
+  
+        <h3><a>Android App: AnalytXLS</a></h3>
+        <h4><a>A Spreadsheet Application</a></h4>
+  
+  
+	  
+  
+        <p>Android is a software platform for smartphones and Internet tablets. It is a mobile operating system initially developed by Android Inc. . Android was bought by Google in 2005. Android is based upon a modified version of the Linux kernel. Google and other members of the Open Handset Alliance collaborated to develop and release Android to the world.
+
+The Android operating system software stack consists of Java applications running on a Java based object oriented application framework on top of Java core libraries running on a Dalvik virtual machine featuring JIT compilation. Libraries written in C include the surface manager, OpenCore[18] media framework, SQLite relational database management system, OpenGL ES 2.0 3D graphics API, WebKit layout engine, SGL graphics engine, SSL, and Bionic libc.
+SocialCalc is a spreadsheet application developed using JavaScript and was originally coded by Dan Bricklin of Software Garden Inc. for Socialtext Inc.
+Working on similar grounds, AnalytXLS aims at providing functionality in mobile devices that could assimilate worksheets, forms, tabulated data etc.
+	</p>
+        <!--<p><a class="btn" href="#">Read more</a></p>-->
+  
       
-    </div>
-  </div>
-</div>
-<div>
-  <p>
+    <a href="01.png"><img src="01.png"><br></a>
+    <a href="02.png"><img src="02.png"> <br></a>
     
-  </p>
-</div>
-<div class="container">
-
-        <h1>Page Under Construction</h1>
         <p>
-          
+			<h3>Features</h3>
+			The project has been implemented with the help of <a 
+			href="http://wiki.laptop.org/go/SocialCalc">SocialCalc</a>. The cells and the basic look of this part has been ported to android using a webview.
+			<h4>
+Functions on Cells
+</h4>
+All the functions which can be used in the context of cells and the data in them are shown in the various tab headings of "Edit", 
+
+"Format", "Sort", "Audit", "Comment", "Names" and "Graph" as shown in the shot below. A simple textbox as shown shows the content of the cell selected.
+</p>
+        <!--<p><a class="btn" href="#">Read more</a></p>-->
+      
+ 
+ <a href="03.png"><img src="03.png"></a><br><br>
+ <a href="04.png"><img src="04.png"></a>
+      
+      
+
+        <p>
+
+<h4>Utility Features</h4>
+Various functionality just as in a normal spreadsheet has also been 
+implemented. These features include :<br><br>
+1. "Save" : This saves the whole worksheet i.e a whole collection of 
+sheets temporarily into a SQLite database. This is for saving work on a 
+minute to minute basis and should not be used for permanent storage. 
+Also, only the last most recent saved worksheet is shown back to the 
+user.<br><br>
+
+2. "Load" : This loads the last most recent saved worksheet. It 
+retrieves this information again from the SQLite Database.<br><br>
+
+3. "Add Sheet" : This introduces another sheet in the current 
+worksheet. The new sheet is added in the bar above the "Add Sheet" 
+bar.<br><br>
+
+4. "Delete Sheet" : Deletes the selected sheet from the worksheet and 
+removes it from the tab above.<br><br>
+
+5. "Rename Sheet" : This renames the sheet name to the user customized 
+name.<br><br>
+
+6. "Export" : This opens a ListView to choose the various places where 
+the worksheet can be exported to. Currently, the worksheet can be 
+exported to the SD Card of your device. Google Document integration is 
+near completion and would be added soon. <br><br>
+
+7. "Exit" : This exits the application and returns us to the main home 
+window.<br><br>
+
+Project Development was stopped midway.<br><br>			
+	</p>
+        <!--<p><a class="btn" href="#">Read more</a></p>-->
+    
+	<a href="05.png"><img src="05.png"></a>
+	<a href="06.png"><img src="06.png"></a><br>
+	<a href="07.png"><img src="07.png"></a><br>
+		
+    
+        <p></p>
+        <p>
+          <a href="http://www.shanjitsingh.in">Shanjit Singh Jajmann</a> 
+          | <a href="mail to:anubhav929@gmail.com">Anubhav Aggarwal</a>
+          | Mar 10th, 2010
         </p>
+    
+      </div>
+   
 
-</div> <!-- /container -->
 
-    <!-- Le javascript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="../website/js/jquery.js"></script>
-    <script src="../website/js/bootstrap-transition.js"></script>
-    <script src="../website/js/bootstrap-alert.js"></script>
-    <script src="../website/js/bootstrap-modal.js"></script>
-    <script src="../website/js/bootstrap-dropdown.js"></script>
-    <script src="../website/js/bootstrap-scrollspy.js"></script>
-    <script src="../website/js/bootstrap-tab.js"></script>
-    <script src="../website/js/bootstrap-tooltip.js"></script>
-    <script src="../website/js/bootstrap-popover.js"></script>
-    <script src="../website/js/bootstrap-button.js"></script>
-    <script src="../website/js/bootstrap-collapse.js"></script>
-    <script src="../website/js/bootstrap-carousel.js"></script>
-    <script src="../website/js/bootstrap-typeahead.js"></script>
 
-  </body>
-</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</section>
+</body>
