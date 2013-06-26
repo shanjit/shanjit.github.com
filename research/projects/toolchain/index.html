@@ -1,14 +1,8 @@
 <!DOCTYPE html>
-<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
-<!--[if lt IE 7 ]> <html class="ie6" lang="en"> <![endif]-->
-<!--[if IE 7 ]> <html class="ie7" lang="en"> <![endif]-->
-<!--[if IE 8 ]> <html class="ie8" lang="en"> <![endif]-->
 
 <head>
 <meta charset='utf-8'>
-<!-- Uncomment to make IE8 render like IE7 -->
-<!-- <meta http-equiv="X-UA-Compatible" content="IE=7" /> -->
-<!-- Set the viewport width to device width for mobile -->
+
 <meta content='width=device-width, initial-scale=1.0' name='viewport'>
 <title>Shanjit Singh Jajmann</title>
 <link href="../../../application.css" media="screen" rel="stylesheet" type="text/css" />
@@ -20,7 +14,7 @@
 	  body {
         padding-top: 0px;
         padding-bottom: 0px;
-        background: #ddd url('bg.png') no-repeat fixed center;
+        background: #FFFFD6 no-repeat fixed center;
         color:#C15D63;
 		
 		}
@@ -32,7 +26,7 @@
     </style>
 
 </head>
-<body>
+<body style="font-size=30px">
 <section class='sidebar'>
 <h1 class='name'>
 Shanjit Singh Jajmann
@@ -59,18 +53,22 @@ Contact:
 </a>
 </div>
 </section>
-<section class='content'>
+
+<section class='content' style=
+    "width:70%; background: #FFFFD6 no-repeat fixed center;">
 
 
       
-      <div class="boxed" align="justify">
+      <div align="justify">
   <div class="span12">
-        <h3><a href="#">ARM Cortex-M3 Toolchain Setup for TI uCs</a></h3>
+        <h1><a style="color:black;">ARM Cortex-M3 Toolchain Setup for TI uCs</a></h1>
   </div>
   
 	  <div class="span12" style="font-size: 16px;">      
+    <p><a class="btn" href="http://blog.shanjitsingh.in/post/47372026174/microcontroller-software-building-executables">Blog Entry: Setting 
+        up the Toolchain</a></p>
         <p>
-<h4>Introduction</h4>      
+<h3 style="color:black;">Introduction</h3>      
 What is a toolchain ?<br>
 The processor runs only what it understands. So as a developer its upto 
 you to make sure you give it only what it can run. But, what it can run 
@@ -84,15 +82,15 @@ That blackbox which converts the code from user readable format to the
 hex format to be burnt onto the board, encompasses the 
 toolchain.<br><br>
 
-<b>Parts of a Toolchain,</b><br>
+<div style="color:black;">Parts of a Toolchain,</div><br>
 There are various parts of the toolchain. They include,<br>
 Compiler<br>
 Assembler<br>
 Linker<br>
 Debugger<br>
 <br>
-<b>Types of toolchains, (quite obviously depends on the host and the 
-target)</b> <br>
+<div style="color:black;">Types of toolchains, (quite obviously depends on the host and the 
+target)</div> <br>
 Now, the funny thing was when i started, i used to see weird things written everywhere like, arm-linux, arm-elf, arm-none-eabi,i386-linux, i386-elf these didn't make any sense in the beginning. What they signify is the the host and the target controller. 
 <br><br>
 So step 1, would be to just get all the parts of the toolchain together on your system, either windows or linux. (Have tried both and linux works like a charm). Get everything using either <br>
@@ -114,10 +112,7 @@ configure it for making the required hex file (finally burned onto the
 board).<br>
 
         </p>
-        <br>
-        <p><a class="btn" href="http://www.armcontroller.in/projects/stellaris-guru/setup-the-development-environment">Setting 
-        up the Toolchain</a></p>
-        <!--<p><a class="btn" href="#">Read more</a></p>-->
+        
       </div>
       
       
@@ -125,7 +120,7 @@ board).<br>
       <div class="span8">
         <p></p>
         <p>
-          <a href="http://www.shanjitsingh.in">Shanjit Singh Jajmann</a> 
+          <a style="color:black;" href="http://www.shanjitsingh.in">Shanjit Singh Jajmann</a> 
           | <i class="icon-calendar"></i> July 15th, 2011
         </p>
       </div>

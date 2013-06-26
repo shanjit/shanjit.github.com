@@ -1,26 +1,18 @@
 <!DOCTYPE html>
-<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
-<!--[if lt IE 7 ]> <html class="ie6" lang="en"> <![endif]-->
-<!--[if IE 7 ]> <html class="ie7" lang="en"> <![endif]-->
-<!--[if IE 8 ]> <html class="ie8" lang="en"> <![endif]-->
-
 <head>
 <meta charset='utf-8'>
-<!-- Uncomment to make IE8 render like IE7 -->
-<!-- <meta http-equiv="X-UA-Compatible" content="IE=7" /> -->
-<!-- Set the viewport width to device width for mobile -->
+
 <meta content='width=device-width, initial-scale=1.0' name='viewport'>
 <title>Shanjit Singh Jajmann</title>
 <link href="../../../application.css" media="screen" rel="stylesheet" type="text/css" />
 <script src="../../../application.js" type="text/javascript"></script>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js" type="text/javascript"></script>
-<script src="../../../highlight.js" type="text/javascript"></script>
 
 <style type="text/css">
 	  body {
         padding-top: 0px;
         padding-bottom: 0px;
-        background: #ddd url('bg.png') no-repeat fixed center;
+        background: #FFFFD6 no-repeat fixed center;
         color:#C15D63;
 		
 		}
@@ -59,21 +51,15 @@ Contact:
 </a>
 </div>
 </section>
-<section class='content'>
+<section class='content' style=
+    "width:70%; background: #FFFFD6 no-repeat fixed center;">
 
-
-
-
-
-
-
-
-      <div class="boxed" align="justify">
+      <div align="justify">
   
-        <h3><a href="">Using OpenOCD with TI and ST Microcontrollers</a></h3>
+        <h1 style="color:black;"><a >Using OpenOCD with TI and ST Microcontrollers</a></h1>
       
         <p>
-      The <a href="http://openocd.sourceforge.net/">Open On-Chip 
+      The <a style="color:black;" href="http://openocd.sourceforge.net/">Open On-Chip 
       Debugger</a> (OpenOCD) is aims to provide debugging, 
       in-system programming and boundary-scan testing for embedded 
       target systems. OpenOCD provides the ability to flash NAND and 
@@ -88,10 +74,10 @@ I use OpenOCD with GDB integrated with Eclipse for debugging with the JTAG.<br>
 
 Every ARM microcontroller has onboard two immediate solutions for debugging JTAG (Joint Test Action Group) and SWD (Serial Wire Debug). These are two standards used for debugging.<br><br>
 
-<b>So how does it help me ?</b><br>
+<div style="color:black;">So how does it help me ?</div><br>
 Hardware debugging is a boon! Its value is only known to someone who has spent countless hours going over lines of code not being able to figure out where the error is. Hardware debugging using OpenOCD and GDB helps set breakpoints, instruction line execution, set watchpoints and lets the programmer lookup memory and register level values. Debugging can save you hours of precious time. 
 <br><br>
-<b>How do i run it ?</b><br>
+<div style="color:black;">How do i run it ?</div><br>
 COMMAND LINE<br>
 1. Install OpenOCD.<br>
 see website, make sure you have all the dependencies. libftdi-dev <br>
@@ -117,7 +103,7 @@ load </i><br><br>
 
 <br><br>
 
-<b>Using with Eclipse</b><br>
+<div style="color:black;">Using with Eclipse</div><br>
 
 Eclipse needs to be started using Super User privileges for accessing Hardware Devices using OpenOCD, alternative suggested ahead .
 After configuring the toolchain from a previous post, the current 
@@ -127,15 +113,16 @@ environment on Ubuntu looks like, <br>
         </p>
         <!--<p><a class="btn" href="#">Read more</a></p>-->
       
+      <div align="center">
       
-      
-	  <a href="1.png"><img src="1.png"><br><br>
-      <a href="2.png"><img src="2.png"><br><br>
-      <a href="3.png"><img src="3.png"><br><br>
-      <a href="4.png"><img src="4.png"><br><br>
-      <a href="5.png"><img src="5.png" ><br><br>
-      <a href="6.png"><img src="6.png"></a>
-      
+	  <a href="https://sites.google.com/site/cuilyahoo/_/rsrc/1352556396451/projects/research-assistantship-texas-instruments/jtag-debugging/8.png"><img height=336 width=600 src="https://sites.google.com/site/cuilyahoo/_/rsrc/1352556396451/projects/research-assistantship-texas-instruments/jtag-debugging/8.png"><br><br>
+      <a href="https://sites.google.com/site/cuilyahoo/_/rsrc/1352556396451/projects/research-assistantship-texas-instruments/jtag-debugging/9.png"><img height=336 width=600 src="https://sites.google.com/site/cuilyahoo/_/rsrc/1352556396451/projects/research-assistantship-texas-instruments/jtag-debugging/9.png"><br><br>
+      <a href="https://sites.google.com/site/cuilyahoo/_/rsrc/1352556396451/projects/research-assistantship-texas-instruments/jtag-debugging/13.png"><img height=336 width=600 src="https://sites.google.com/site/cuilyahoo/_/rsrc/1352556396451/projects/research-assistantship-texas-instruments/jtag-debugging/13.png"><br><br>
+      <a href="https://sites.google.com/site/cuilyahoo/_/rsrc/1352556396451/projects/research-assistantship-texas-instruments/jtag-debugging/15.png"><img height=336 width=600 src="https://sites.google.com/site/cuilyahoo/_/rsrc/1352556396451/projects/research-assistantship-texas-instruments/jtag-debugging/15.png"><br><br>
+      <a href="https://sites.google.com/site/cuilyahoo/_/rsrc/1352556396451/projects/research-assistantship-texas-instruments/jtag-debugging/16.png"><img height=336 width=600 src="https://sites.google.com/site/cuilyahoo/_/rsrc/1352556396451/projects/research-assistantship-texas-instruments/jtag-debugging/16.png" ><br><br>
+      <a href="https://sites.google.com/site/cuilyahoo/_/rsrc/1352556396451/projects/research-assistantship-texas-instruments/jtag-debugging/12.png"><img height=336 width=600 src="https://sites.google.com/site/cuilyahoo/_/rsrc/1352556396451/projects/research-assistantship-texas-instruments/jtag-debugging/12.png"></a>
+      </div>
+
 	<br>
 	
 <b>Eclipse needs to be started using Super User privileges for 
@@ -170,14 +157,14 @@ Running OpenOCD with Eclipse without Sudo<br>
 4. Reload udev file to get it working.<br>
 
 Note : <br>
-OpenOCD and gdb debugging won't work on a virtual environment. Make sure you do it on your native system. OpenOCD is available for both <a href="http://openocd.sourceforge.net/">windows and linux</a>.<br>
+OpenOCD and gdb debugging won't work on a virtual environment. Make sure you do it on your native system. OpenOCD is available for both <a style="color:black;" href="http://openocd.sourceforge.net/">windows and linux</a>.<br>
 <br>
-http://openocd.sourceforge.net/doc/html/GDB-and-OpenOCD.html
+More information <a style="color:black;" href="http://openocd.sourceforge.net/doc/html/GDB-and-OpenOCD.html">here</a>.
 	
 	
         <p>
-          <a href="http://www.shanjitsingh.in">Shanjit Singh Jajmann</a> 
-          | <i class="icon-calendar"></i> August 29th, 2011
+          <a style="color:black;" href="http://www.shanjitsingh.in">Shanjit Singh Jajmann</a> 
+          | August 29th, 2011
         </p>
       
       </div>
