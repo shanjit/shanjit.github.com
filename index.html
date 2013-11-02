@@ -1,42 +1,70 @@
+
 <!DOCTYPE html>
-
-<html lang="en">
+<html>
 <head>
-    <meta charset='utf-8'>
-    <meta content='width=device-width, initial-scale=1.0' name='viewport'>
+  <title>PartLister</title>
+<link href="boot.min.css" rel="stylesheet" type="text/css" />
 
-    <title>Shanjit Singh Jajmann</title>
-    <link href="application.css" media="screen" rel="stylesheet" type=
-    "text/css">
-    <script src="application.js" type="text/javascript"></script>
-    <script src=
-    "http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js" type=
-    "text/javascript"></script>
-    <style type="text/css">
+
+
+<style type="text/css">
 
          body {
             padding-top: 0px;
             padding-bottom: 0px;
-            background: #FFFFD6 no-repeat fixed center;
-            color:#C15D63;
+            background: #f5f5f5 no-repeat fixed center;
+            color:#C15423;
+            font-family: "Helvetica Neue", Helvetica;
+            font-size: 18px;
+            line-height: 30px;
              }
-        
+
          .boxed {
             border: 1px solid #C15D63   ;
             padding:15px;
           }
 
+          .sidebar-left{width:5%;background:#131313;height:100%;position:fixed;margin-right:-2px;color:#fff}.sidebar .name{margin:30px 0 20px 100%;padding:0;line-height:1em}.sidebar a.icon{color:#fff;text-decoration:none}.sidebar a:hover .icon{color:#008fff;opacity:1;text-decoration:none}.navlink{margin:0;padding:3% 8%;display:block;color:#808080;text-decoration:none}.navlink:hover,.navlink.active{background:#1d1d1d;color:#fff;text-decoration:none}.icons{margin:10px 0 30px 0;margin-left:8%}.find_me{font-size:1em;color:#808080;margin-left:8%;margin-top:50px}@media (max-width: 320px){body{font-size:12px}}@media (max-width: 320px){.name{display:none}.sidebar{position:absolute}}@media (max-width: 480px){.name{font-size:1.1em}.sidebar{position:absolute}}pre code{display:block;padding:0.5em;background:#002b36;color:#839496}pres
+
+          .sidebar-right{width:1%;background:#131313;height:100%;position:fixed;margin-left:-2px;color:#fff}.sidebar .name{margin:30px 0 20px 8%;padding:0;line-height:1em}.sidebar a.icon{color:#fff;text-decoration:none}.sidebar a:hover .icon{color:#008fff;opacity:1;text-decoration:none}.navlink{margin:0;padding:3% 8%;display:block;color:#808080;text-decoration:none}.navlink:hover,.navlink.active{background:#1d1d1d;color:#fff;text-decoration:none}.icons{margin:10px 0 30px 0;margin-left:8%}.find_me{font-size:1em;color:#808080;margin-left:8%;margin-top:50px}@media (max-width: 320px){body{font-size:12px}}@media (max-width: 320px){.name{display:none}.sidebar{position:absolute}}@media (max-width: 480px){.name{font-size:1.1em}.sidebar{position:right}}pre code{display:block;padding:0.5em;background:#002b36;color:#839496}pres
+
     </style>
+
 </head>
 
 <body>
-    <section class='sidebar' style="min-width:200px;">
-        <a href="https://github.com/shanjit/shanjit.github.com"><img alt=
+
+<body>
+<!-- <div class="navbar navbar-fixed-top">
+  <div class="navbar-inner">
+    <div class="container-fluid">
+
+      <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </a>
+      <a class="brand" href="#">Partlister</a>
+
+      <div class="nav-collapse">
+        <ul class="nav pull-right">
+        </ul>
+
+      </div><!--/.nav-collapse
+
+    </div>
+  </div>
+</div>
+<br><br> -->
+
+<div class="sidebar-left" style="min-width:50px;">
+<!--
+<a href="https://github.com/shanjit/shanjit.github.com"><img alt=
         "Fork this site on GitHub" src=
         "http://s3.amazonaws.com/github/ribbons/forkme_left_white_ffffff.png"
         style="position: relative; top: 0; left: 0; border: 0;"></a>
 
-        <h1 class='name'>Shanjit Singh Jajmann</h1>
+<br><br>
 
         <nav>
             <a class="navlink active" href=
@@ -60,57 +88,81 @@
                 'icon-mail icon'></em></a>
             </div>
         </nav>
-    </section>
+-->
+</div>
 
-    <section class='content' style=
-    "width:100%;">
-        <div class='about_frontend' style=
-    "width:100%;">
-            <h1>About</h1>
-            
+
+<div class="container-fluid">
+
+  <div class="row-fluid row" >
+    <br>
+    <div class="well span7 offset1" style="background=#333333; height=100%;">
+
+      <h2>About</h2>
+
             <div class='text' style="text-align: justify">
                 <p>I am an open source hardware and software enthusiast,
                  passionate about technology, embedded systems and the
-                Web. <a>My interests include a range of topics which could be described as cyber-physical systems. </a>I'm interested in development and integration of diverse technology to make solutions which directly impact our daily lives.</p>
+                Web. <a>My interests include a range of topics which could be described as cyber-physical systems. </a>I'm interested by these physically engineered communication and computation cores which have the potential to directly impact our daily lives.</p>
 
                 <p> An Electronics and Communication Graduate from <a href="http://www.nsitonline.in">Netaji Subhas Institute of Technology</a>, <a href="http://www.du.ac.in/">University of
-                Delhi</a>, I am currently a MS student in the Embedded Systems Program (<a href="http://www.cis.upenn.edu/grad/embedded.shtml">EMBS</a>) at the <a href="http://www.seas.upenn.edu/">School of Engineering and Applied Sciences</a>, <a href="http://www.upenn.edu">University of Pennsylvania</a>.
+                Delhi</a>, I am currently a Graduate student at the <a href="http://cis.upenn.edu">Department of Computer and Information Sciences</a> in the <a href="http://www.seas.upenn.edu/">School of Engineering and Applied Sciences</a>, <a href="http://www.upenn.edu">University of Pennsylvania</a>.
                 <br><br>
 
-               
-                <br>
 
                 <b> Summer 2014 Opportunities </b>
                 <br>
-                <p>I am currently looking for Summer 2014 Internship Opportunities in Embedded Software Design and Development. My current graduate level courses at UPenn are, 
-                    <ul>
-                        <li>Computer Architecture</li>
-                        <li>Embedded Software for Life-Critical Applications</li>
-                        <li>Database & Information Systems</li>
-                    </ul>
+                <p>I am currently looking for Summer 2014 Internship Opportunities. <br><br>
 
-                    <a href='http://www.seas.upenn.edu/~sjajmann/resume/index.html'>Resume (html)</a>
-                    <a href='http://www.seas.upenn.edu/~sjajmann/resume.pdf'>Resume (pdf)</a>
+                    <a href='http://www.seas.upenn.edu/~sjajmann/resume.pdf'>Resume</a>
                 </p>
 
             </div>
-        </div>
-    </section>
+
+
+    </div>
+    <div class="well span3" align="justify">
+
+<div class="pagination-centered">
+
+<br><br>
+    <img align="top" src="pic1.jpg" width="1000" height="1000">
+    </div>
+    <br>
+
+    <h4 align="center"> Contact Information </h4>
+    <p align="center">4403 Walnut Street, Apt 2C, Philadelphia, PA 19104, United States <br> sjajmann@seas.upenn.edu <br> +1 720 557 9240</p>
+
+
+
+
+
+
+    </div><!--/span-->
+
+<div class="sidebar-right"></div>
+  </div><!--/row-->
+
+</div><!--/.fluid-container-->
+
+
+
+
+
+
+
+<hr>
+
+
+
+
+
+
+
+
+
+
 </body>
 
-<script type="text/javascript">
-
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-36726461-1']);
-  _gaq.push(['_setDomainName', 'shanjitsingh.in']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-</script>
-
+</body>
 </html>
