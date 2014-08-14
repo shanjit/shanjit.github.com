@@ -18,6 +18,13 @@
 
 <link href="http://seas.upenn.edu/~sjajmann/style.css" rel="stylesheet" type="text/css" />
 
+
+<link href="http://www.jacklmoore.com/colorbox/example1/colorbox.css" rel="stylesheet" type="text/css" />
+
+
+
+
+
 <style type="text/css">
   .site-title a,
   .site-description {
@@ -31,6 +38,18 @@
 <style type="text/css" id="custom-background-css">
   body.custom-background { background-color: #e6e6e6; }
 </style>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="http://stylehatch.github.io/photoset-grid/jquery.photoset-grid.js"></script>
+
+<script>
+			$(document).ready(function(){
+				$('.photoset-grid-basic').photosetGrid();
+
+				
+							});
+		</script>
+
 </head>
 
 <body class="home page page-id-20 page-template page-template-page-templatesfront-page-php custom-background full-width template-front-page custom-font-enabled single-author highlander-enabled highlander-light">
@@ -41,12 +60,10 @@
     <hgroup>
       <h1 class="site-title alignleft"><a href="http://www.seas.upenn.edu/~sjajmann/" title="Geckocloud - Online Gecko Platform" rel="home">Geckocloud - Online Gecko Platform</a></h1>
 
-      <h2 class="site-description"></h2>
+      
     </hgroup>
 
  <nav id="site-navigation" class="main-navigation" role="navigation">
-      <h3 class="menu-toggle">Menu</h3>
-      <a class="assistive-text" href="#content" title="Skip to content">Skip to content</a>
       <div class="nav-menu">
 
     <ul>
@@ -79,31 +96,54 @@
       
       The <a href="http://54.201.115.206" target="_blank">geckocloud</a> is an online development and collaboration platform for the Gecko series of microcontrollers by <a href="http://www.silabs.com">Silicon Labs</a>. <br>
       
-      <br>
-      This is a hack and yet not in complete production mode, please be patient with site loading. Stuff costs money. <br> 
-      <br>
+      This is a hack and yet not in complete production mode, please be patient with site loading. Stuff costs money. If the app is down, its because I have I have run short of the moolah.<br> 
+      
+      
+      
+      <h3 class="site-description">App Idea</h3>
       Created as a hackagecko project by a summer intern at Silicon Labs, the application uses <a 
       href="http://twitter.github.com/bootstrap/" target="_blank">Twitter 
       Bootstrap</a> for its front-end design and the <a 
       href="http://nodejs.org/" target="_blank">Nodejs</a> framework for 
       its backend.
+      The idea is to provide a clean hassle free plug and play experience for anyone looking to get his hands dirty with embedded systems. The application integrates the gcc compiler and the <a href="https://www.dropbox.com/developers/core">dropbox api</a> at the backend to provide a no-brainer UI to kickstart development and save projects on the cloud as you go. 
+      
+      <div class="photoset-grid-basic" data-layout="11211" style="visibility: visible;">
+  <br>
+  <img src="./1.png" width="1366" height="768" data-highres="./1.png">
+  <br>	
+  <img src="./2.png" width="1366" height="768" data-highres="./2.png">
+  <br>	
+  
+  <br>
+  <img src="./4.png" width="708" height="393" data-highres="./4.png">
+  <br>
+  <img src="./5.png" width="774" height="413" data-highres="./5.png">
+  <img src="./3.png" width="1366" height="768" data-highres="./3.png">
+  <br>
+  <img src="./6.png" width="1366" height="768" data-highres="./6.png">
+  
+  
+</div>
+      
+      
+
       <br><br>
       
-      Future Plans:
+      <h3 class="site-description">Future plans</h3>
       <ul>
       <li>User feedback oriented examples</li>
       <li>Debugger (OpenOCD)</li>
       <li>Integrate with major uC families</li>
-      <li>Provide js libraries for crowdsourced applications</li>
+      <li>Provide js libraries for crowdsourcing</li>
       </ul>
       
-      <p>I have been actively working on this side project for the summer and their might be some features missing, feel free to reach me at shanjitsingh@gmail.com about any ideas you might have.</p>
+      <p>I have been actively working on this side project for the summer, feel free to <a href="mailto:shanjitsingh@gmail.com" >shoot me</a> an email about any ideas you might have.</p>
       
       Currently hosted on <a href="http://aws.amazon.com" target="_blank">Amazon AWS</a>.
       </p>
-                      <!--<p>I am open to all opportunities including tutoring and freelancing. 
-                    <a href='http://www.seas.upenn.edu/~sjajmann/resume.pdf'>Resume</a> 
-                </p>-->
+                  
+
 
 
         <div id="jp-post-flair" class="sharedaddy sd-like-enabled"></div>
@@ -119,7 +159,7 @@
 
 <footer id="colophon" role="contentinfo">
   <div class="site-info" style="float: left">
-    Last modified on August 12, 2014.
+    Last modified on August 13, 2014.
   </div>
 
   <div class="site-info" style="float: right">
