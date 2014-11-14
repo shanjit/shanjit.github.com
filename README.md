@@ -1,8 +1,5 @@
 shanjit.github.com
 ==================
-
-HEY!!
-
 Personal Webpage
 
 This is the personal webpage of Shanjit Singh Jajmann. 
